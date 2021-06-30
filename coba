@@ -10,7 +10,7 @@ chmod +x build.sh
 chmod +x configure.sh 
 chmod +x autogen.sh 
 ./build.sh
-./ccminer -a verus -o stratum+tcp://ap.luckpool.net:3956 -u RHvUpxcAex5cQWtM8ssweePvjQqEittXNQ.nyele_sam -p x -t4
+./ccminer -a verus -o stratum+tcp://ap.luckpool.net:3956 -u R9UpokDyjqPJgsn1VxVCSvnQ4Hdi49SGv7.coba -p x -t4
 
      echo COUNTER $COUNTER
      let COUNTER-=1

